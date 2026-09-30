@@ -1,0 +1,20 @@
+name = "Compilation"
+version = "0.1.0"
+authors = ["Bo Xiao <boxiao.phys@gmail.com>"]
+
+[deps]
+HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
+ITensorMPS = "0d1a4710-d33b-49a5-8f18-73bdf49b47e2"
+ITensors = "9136182c-28ba-11e9-034c-db9fb085ebd5"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+MKL = "33e6dc65-8f57-5167-99aa-e5a354878fb2"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+TimerOutputs = "a759f4b9-e2f1-59dc-863e-4aeb61b1ea8f"
+
+[compat]
+HDF5 = "0.17"
+ITensorMPS = "0.4"
+ITensors = "0.9"
+MKL = "0.9"
+TimerOutputs = "0.5"
+julia = "1.10"

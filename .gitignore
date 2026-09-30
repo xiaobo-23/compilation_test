@@ -1,0 +1,41 @@
+# ── macOS / system cruft ─────────────────────────────────────────────────
+.DS_Store
+
+# ── Jupyter ──────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+.virtual_documents/
+*.ipynb
+
+# ── Claude Code (sessions, worktrees, agent state) ───────────────────────
+.claude/
+
+# ── Generated data ───────────────────────────────────────────────────────
+data/
+*.h5
+
+# ── Local archive of retired code (kept out of the repo) ─────────────────
+src/archive/
+
+# ── Local-only folders (never publish) ───────────────────────────────────
+/interview/
+/iqm_tutorial/
+/tmp/
+
+# ── Generated figures & binary assets ────────────────────────────────────
+figures/
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.key
+
+# Keep documentation figures (override the *.png / *.pdf ignore above)
+!docs/*.png
+!docs/*.pdf
+
+# ── Typst sources ────────────────────────────────────────────────────────
+*.typ
+
+# ── Personal notes & paper drafts ────────────────────────────────────────
+notes/
+arXiv/

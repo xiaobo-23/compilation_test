@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Compilation.jl: Tensor-network compilation of Kitaev honeycomb states into shallow quantum circuits"
+abstract: >-
+  A Julia/ITensor code that variationally compiles stored matrix-product-state
+  ground states of the Kitaev honeycomb model on cylinders (including the
+  three-spin time-reversal-breaking term) into shallow, symmetry-sector-
+  preserving circuits of two-qubit Pauli rotations.
+type: software
+authors:
+  - family-names: Xiao
+    given-names: Bo
+    email: boxiao.phys@gmail.com
+license: Apache-2.0
+repository-code: "https://github.com/xiaobo-23/Compilation"
+version: "0.1.0"
+keywords:
+  - Kitaev honeycomb model
+  - tensor networks
+  - matrix product states
+  - quantum circuit compilation
+  - quantum state preparation
+  - chiral spin liquid
